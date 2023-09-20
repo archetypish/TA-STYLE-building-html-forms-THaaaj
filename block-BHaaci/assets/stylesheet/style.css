@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------------ */
+/* Custom CSS */
+/* ------------------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  background: url("../../assets/media/bg-intro-desktop.png");
+  background-color: #ff7978;
+}
+
+/* Typography ------------------------------- */
+
+/* Intro */
+.intro {
+  color: #fff;
+}
+
+.intro-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* form */
+.signup-form {
+  background-color: #fff;
+}
+
+.signup-title {
+  background-color: #5d54a3;
+  color: #fff;
+  padding: 16px 36px;
+  border-radius: 8px;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.signup-title-main {
+  font-weight: 700;
+}
+
+.label {
+  display: none;
+}
+
+.form-control,
+.btn-submit {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control {
+  color: #424146;
+  border: 1px solid #e4e4e4;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.form-control::placeholder {
+  color: #c2c1c6;
+}
+
+.form-control,
+.form-control::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border: none;
+  border: 1px solid #b1adbe;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 16px 36px;
+}
+
+.btn-submit {
+  background-color: #37cc8a;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 0 0 #40b280;
+}
+
+.small {
+  font-size: 8px;
+  font-weight: 500;
+  color: #c5c4cb;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link-terms {
+  color: #ff7978;
+  font-weight: 700;
+}
+
+/* Layout and Spacing */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gap-48 {
+  gap: 48px;
+}
+.content,
+.container {
+  height: 100vh;
+}
+
+.intro {
+  flex: 0 1 40%;
+}
+
+.signup {
+  flex: 0 1 45%;
+}
+
+/* intro */
+.intro-title {
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.intro-text {
+  line-height: 1.4;
+}
+
+/* form */
+.signup-header {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-control,
+.btn-submit {
+  display: block;
+  width: 100%;
+}
+
+.btn-submit {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
