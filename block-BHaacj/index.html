@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Journey</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+
+    <!-- Icon Kit -->
+    <script
+      src="https://kit.fontawesome.com/0a6bb8ec9a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-outer flex">
+        <a href="." class="link logo flex gap-12">
+          <img class="logo-img" src="./assets/media/logo.png" alt="Journey" />
+          <span class="logo-text">Journey</span>
+        </a>
+        <nav class="nav">
+          <ul class="nav-list flex gap-96">
+            <li class="nav-item">
+              <a class="link nav-link nav-link_active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="#">Top Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="#">Recommended Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero flex-center">
+        <div class="container container-hero">
+          <header class="hero-header flex-col align-center gap-24">
+            <h1 class="heading-page">Let's Begin</h1>
+            <img src="./assets/media/dots-3.png" alt="see below" />
+            <p class="text-large text-hero">We assist you to choose the best</p>
+            <a class="link hero-arrow-link" href="#booking">
+              <i class="icon-darrow fa-solid fa-chevron-down"></i>
+            </a>
+          </header>
+
+          <form action="" class="form form-travel flex align-stretch">
+            <fieldset class="itinerary">
+              <div class="flex-col gap-24">
+                <label class="label" for="destination"
+                  >Choose your Destination</label
+                >
+                <input
+                  class="form-control ml-12"
+                  type="text"
+                  name="destination"
+                  id="destination"
+                  placeholder="Type your Destination..."
+                />
+              </div>
+              <div class="flex">
+                <div class="flex-col gap-24">
+                  <label class="label" for="checkin-date">Check in Date</label>
+                  <input
+                    class="form-control control-date ml-12"
+                    type="date"
+                    name="checkin-date"
+                    id="checkin-date"
+                    placeholder="Check in"
+                  />
+                </div>
+                <div class="flex-col gap-24">
+                  <label class="label" for="checkout-date"
+                    >Check out Date</label
+                  >
+                  <input
+                    class="form-control control-date ml-12"
+                    type="date"
+                    name="checkout-date"
+                    id="checkout-date"
+                    placeholder="Check out"
+                  />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="stay">
+              <div class="flex">
+                <div class="rooms flex-col gap-24">
+                  <label class="label" for="room">How many rooms?</label>
+                  <input
+                    class="form-control control-number ml-12"
+                    type="number"
+                    name="room"
+                    id="room"
+                    placeholder="1"
+                    min="1"
+                    max="50"
+                  />
+                </div>
+                <div class="flex-col gap-24">
+                  <label class="label" for="room">Adults</label>
+                  <input
+                    class="form-control control-number ml-12"
+                    type="number"
+                    name="room"
+                    id="room"
+                    placeholder="1"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+                <div class="flex-col gap-24">
+                  <label class="label" for="room">Children</label>
+                  <input
+                    class="form-control control-number ml-12"
+                    type="number"
+                    name="room"
+                    id="room"
+                    placeholder="1"
+                    min="1"
+                    max="100"
+                  />
+                </div>
+              </div>
+              <button class="btn btn-primary">Check availability</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <article class="about-content flex-col align-center gap-24">
+            <h2 class="heading-section-one">
+              Your <strong class="heading-strong">journey</strong> is our
+              priority
+            </h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+              laudantium inventore odit, dolorem unde error, rerum autem
+              incidunt natus pariatur ut repudiandae, qui quasi molestiae.
+              inventore odit, dolorem unde error, rerum autem incidunt natus
+              pariatur ut repudiandae, qui quasi molestiae.
+            </p>
+            <a class="link btn btn-primary" href="#">Continue explore</a>
+          </article>
+        </div>
+      </section>
+      <section class="destination">
+        <ul class="destination-list">
+          <li class="destination-item">
+            <article class="destination-content">
+              <section class="destination-detail">
+                <div class="detail-container">
+                  <div class="destination-detail-content flex-col bc-default">
+                    <h3 class="heading-section-two heading-white">
+                      Europe's most visited places
+                    </h3>
+                    <p class="text text-white">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Eligendi nisi hic, odit ea magnam atque sit nesciunt rerum
+                      quia quis nostrum! Quam culpa fugit illo. Ipsa voluptate
+                      blanditiis, ab nemo unde deleniti ratione voluptatem
+                      voluptas. Exercitationem?
+                    </p>
+                    <a
+                      class="link btn btn-primary btn-white btn-default"
+                      href="#"
+                      >Continue Reading</a
+                    >
+                  </div>
+                  <ul class="destination-carousel-controls">
+                    <li class="control-item">
+                      <a href="#" class="link control-link">
+                        <i
+                          class="control-icon fa-solid fa-circle-chevron-left"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="control-item">
+                      <a href="#" class="link control-link">
+                        <i
+                          class="control-icon fa-solid fa-circle-chevron-right"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+
+              <figure class="destination-img-container">
+                <img
+                  class="destination-img"
+                  src="./assets/media/tm-img-01.jpg"
+                  alt="America"
+                />
+              </figure>
+            </article>
+          </li>
+          <li class="destination-item">
+            <article class="destination-content">
+              <section class="destination-detail">
+                <div class="detail-container">
+                  <section
+                    class="destination-detail-content flex-col bc-active"
+                  >
+                    <h3 class="heading-section-two heading-white">
+                      Asia's most visited places
+                    </h3>
+                    <p class="text text-white">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Eligendi nisi hic, odit ea magnam atque sit nesciunt rerum
+                      quia quis nostrum! Quam culpa fugit illo. Ipsa voluptate
+                      blanditiis, ab nemo unde deleniti ratione voluptatem
+                      voluptas. Exercitationem?
+                    </p>
+                    <a
+                      class="link btn btn-primary btn-white btn-active"
+                      href="#"
+                      >Continue Reading</a
+                    >
+                  </section>
+                  <ul class="destination-carousel-controls">
+                    <li class="control-item">
+                      <a href="#" class="link control-link">
+                        <i
+                          class="control-icon fa-solid fa-circle-chevron-left"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="control-item">
+                      <a href="#" class="link control-link">
+                        <i
+                          class="control-icon fa-solid fa-circle-chevron-right"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <figure class="destination-img-container">
+                <img
+                  class="destination-img"
+                  src="./assets/media/tm-img-02.jpg"
+                  alt="Asia"
+                />
+              </figure>
+            </article>
+          </li>
+          <li class="destination-item">
+            <article class="destination-content">
+              <section class="destination-detail">
+                <div class="detail-container">
+                  <section
+                    class="destination-detail-content flex-col bc-default"
+                  >
+                    <h3 class="heading-section-two heading-white">
+                      America's most visited places
+                    </h3>
+                    <p class="text text-white">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Eligendi nisi hic, odit ea magnam atque sit nesciunt rerum
+                      quia quis nostrum! Quam culpa fugit illo. Ipsa voluptate
+                      blanditiis, ab nemo unde deleniti ratione voluptatem
+                      voluptas. Exercitationem?
+                    </p>
+                    <a
+                      class="link btn btn-primary btn-white btn-default"
+                      href="#"
+                      >Continue Reading</a
+                    >
+                  </section>
+                  <ul class="destination-carousel-controls">
+                    <li class="control-item">
+                      <a href="#" class="link control-link">
+                        <i
+                          class="control-icon fa-solid fa-circle-chevron-left"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="control-item">
+                      <a href="#" class="link control-link">
+                        <i
+                          class="control-icon fa-solid fa-circle-chevron-right"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <figure class="destination-img-container">
+                <img
+                  class="destination-img"
+                  src="./assets/media/tm-img-03.jpg"
+                  alt="America"
+                />
+              </figure>
+            </article>
+          </li>
+        </ul>
+        <ul class="destination-nav">
+          <li class="destination-nav-item">
+            <a class="link destination-nav-link" href="#">
+              <img
+                class="destination-nav-img"
+                src="./assets/media/north-america.png"
+                alt="North America"
+              />
+              <span class="destination-nav-text">North America</span>
+            </a>
+          </li>
+          <li class="destination-nav-item">
+            <a class="link destination-nav-link" href="#">
+              <img
+                class="destination-nav-img"
+                src="./assets/media/south-america.png"
+                alt="South America"
+              />
+              <span class="destination-nav-text">South America</span>
+            </a>
+          </li>
+          <li class="destination-nav-item">
+            <a class="link destination-nav-link" href="#">
+              <img
+                class="destination-nav-img"
+                src="./assets/media/europe.png"
+                alt="Europe"
+              />
+              <span class="destination-nav-text">Europe</span>
+            </a>
+          </li>
+          <li class="destination-nav-item">
+            <a
+              class="link destination-nav-link destination-nav-active"
+              href="#"
+            >
+              <img
+                class="destination-nav-img"
+                src="./assets/media/asia.png"
+                alt="Asia"
+              />
+              <span class="destination-nav-text">Asia</span>
+            </a>
+          </li>
+          <li class="destination-nav-item">
+            <a class="link destination-nav-link" href="#">
+              <img
+                class="destination-nav-img"
+                src="./assets/media/africa.png"
+                alt="Africa"
+              />
+              <span class="destination-nav-text">Africa</span>
+            </a>
+          </li>
+          <li class="destination-nav-item">
+            <a class="link destination-nav-link" href="#">
+              <img
+                class="destination-nav-img"
+                src="./assets/media/australia.png"
+                alt="australia"
+              />
+              <span class="destination-nav-text">Australia</span>
+            </a>
+          </li>
+          <li class="destination-nav-item">
+            <a class="link destination-nav-link" href="#">
+              <img
+                class="destination-nav-img"
+                src="./assets/media/antartica.png"
+                alt="antartica"
+              />
+              <span class="destination-nav-text">Antartica</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="packages">
+        <div class="container-outer flex-col align-center gap-24">
+          <ul class="packages-list">
+            <li class="package-item">
+              <article class="package-content">
+                <div class="package-text">
+                  <header class="package-header">
+                    <h4 class="heading-section-three package-tag">Singapore</h4>
+                    <h5 class="heading-section-four">Elit. Ex molestiae</h5>
+                  </header>
+                  <p class="text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta illo quasi reiciendis voluptatem accusamus dolorum
+                    quod dolore nam, minima ad, error numquam velit tempora!
+                  </p>
+                </div>
+                <img
+                  class="package-img"
+                  src="./assets/media/tm-img-06.jpg"
+                  alt="Asia resort"
+                />
+
+                <a href="#" class="link link-package">
+                  <span class="package-price">$440</span>
+                  <span class="link-package-continue">Continue reading</span>
+                </a>
+              </article>
+            </li>
+            <li class="package-item">
+              <article class="package-content">
+                <div class="package-text">
+                  <header class="package-header">
+                    <h4 class="heading-section-three package-tag">
+                      Yangon, Myanmar
+                    </h4>
+                    <h5 class="heading-section-four">Nullam Eget Est a Nisl</h5>
+                  </header>
+                  <p class="text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta illo quasi reiciendis voluptatem accusamus dolorum
+                    quod dolore nam, minima ad, error numquam velit tempora!
+                  </p>
+                </div>
+                <img
+                  class="package-img"
+                  src="./assets/media/tm-img-07.jpg"
+                  alt="Nullam Eget Est a Nisl"
+                />
+
+                <a href="#" class="link link-package">
+                  <span class="package-price">$450</span>
+                  <span class="link-package-continue">Continue reading</span>
+                </a>
+              </article>
+            </li>
+            <li class="package-item">
+              <article class="package-content">
+                <div class="package-text">
+                  <header class="package-header">
+                    <h4 class="heading-section-three package-tag">
+                      Bangkok, Thailand
+                    </h4>
+                    <h5 class="heading-section-four">Lorem ipsum dolor sit</h5>
+                  </header>
+                  <p class="text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta illo quasi reiciendis voluptatem accusamus dolorum
+                    quod dolore nam, minima ad, error numquam velit tempora!
+                  </p>
+                </div>
+                <img
+                  class="package-img"
+                  src="./assets/media/tm-img-05.jpg"
+                  alt="Lorem ipsum dolor sit"
+                />
+
+                <a href="#" class="link link-package">
+                  <span class="package-price">$460</span>
+                  <span class="link-package-continue">Continue reading</span>
+                </a>
+              </article>
+            </li>
+            <li class="package-item">
+              <article class="package-content">
+                <div class="package-text">
+                  <header class="package-header">
+                    <h4 class="heading-section-three package-tag">
+                      Vietlane, Laos
+                    </h4>
+                    <h5 class="heading-section-four">
+                      Lonsectetur adipisicing elit
+                    </h5>
+                  </header>
+                  <p class="text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dicta illo quasi reiciendis voluptatem accusamus dolorum
+                    quod dolore nam, minima ad, error numquam velit tempora!
+                  </p>
+                </div>
+                <img
+                  class="package-img"
+                  src="./assets/media/tm-img-04.jpg"
+                  alt="Lorem ipsum dolor sit"
+                />
+
+                <a href="#" class="link link-package">
+                  <span class="package-price">$470</span>
+                  <span class="link-package-continue">Continue reading</span>
+                </a>
+              </article>
+            </li>
+          </ul>
+          <a class="link btn btn-primary" href="#">Show more places</a>
+        </div>
+      </section>
+      <section class="lead">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7123.338606905907!2d-73.97397201954622!3d40.77913429550563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25890c0fe4577%3A0xdb973a74792f06e7!2sShakespeare%20Garden!5e0!3m2!1sen!2sin!4v1695280687932!5m2!1sen!2sin"
+          class="gmap-background"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form class="form form-lead">
+          <div class="flex gap-12">
+            <label class="label" for="name">Name</label>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Name"
+              id="name"
+              name="name"
+            />
+            <label class="label" for="email">Email</label>
+            <input
+              class="form-control"
+              type="email"
+              placeholder="Email"
+              id="email"
+              name="email"
+            />
+          </div>
+
+          <label class="label" for="subject">Subject</label>
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Subject"
+            id="subject"
+            name="subject"
+          />
+          <label class="label" for="message">Message</label>
+          <textarea
+            class="form-control"
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <button class="btn btn-primary">Send Message now</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container flex-center">
+        <small class="small"> Copyright &copy; 2023 Your Company</small>
+      </div>
+    </footer>
+  </body>
+</html>
